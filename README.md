@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# SJTU VEX Open Source
 
-You can use the [editor on GitHub](https://github.com/SJTU-VEX/SJTU-VEX.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Here are the links of open-source VEX-U robot SolidWorks drawings and design libraries for everyone. We use GrabCAD WorkBench to share.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Design Libraries
 
-### Markdown
+Design libraries include `Sticker`, `VEX EDR Part`, `VEX PRO Part`, `Pneumatic`, `Standard Part`, and `Electronics`. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- SolidWorks 2019: [SOLIDWORKS Standard Parts 19.0.1](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gc7MUIinEN9TK__5adqSRQUH8osmjfsBjxcvLGYFyJycMJ)
 
-```markdown
-Syntax highlighted code block
+- SolidWorks 2020: [SOLIDWORKS Standard Parts 20.0.1](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gcOABi7lW6ELnR60GSzGu3Qc6YgVcD0HEANWZv_HJJWCCj)
 
-# Header 1
-## Header 2
-### Header 3
+Libraries of field elements are also provided.
 
-- Bulleted
-- List
+- 2020 - 2021 Change Up: [Field Element 21.0.1](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gcNY3ydJNL_FNa64A0JpWQrImZpRHDRbnNsC8CFCL7-p2J)
 
-1. Numbered
-2. List
+## Drawings
 
-**Bold** and _Italic_ and `Code` text
+*Note: CAD files include both STEP files and SLDASM files (SolidWorks assembly files).*
 
-[Link](url) and ![Image](src)
-```
+**2019 - 2020 Tower Takeover**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[19~20 Season Skill Challenge – Small Robot Final Version](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gcLWhBQkzmysJvgZgBWdmpKsxkyqbcUBtv9p0Ph7l4Lj5f)
 
-### Jekyll Themes
+[19~20 Season Skill Challenge – Big Robot Final Version](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gcG4_HWnQX8fFMLra8xeY82leIUXTGdKMM-jcE3sPXFICq)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SJTU-VEX/SJTU-VEX.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[19~20 Season Tournament – Small Robot Final Version](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gcC1bdOr8eL-6FSckf4BrAvDFVlKYsUHQYlHl2TYhOFKKH)
 
-### Support or Contact
+**2020 - 2021 Change Up**
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[20~21 Season Tournament – Small Robot Pre-season Version](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gc30-7bjYs9RC1faEY0XKZtpyOQbDe3LGZlwCMh-n_IH3Q)
+
+[20~21 Season Tournament – Small Robot Final Version](https://workbench.grabcad.com/workbench/projects/gceva5GZSMU_9SF8j0-CBt04Aw-A3PWQthwhinUztTq9u8#/space/gcO8-Er1BeHXMcvLZDfGBkGaaUGfQFMkWfWV_a4S2tr6bC)
