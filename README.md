@@ -1,6 +1,6 @@
 # SJTU VEX Website
 
-This site is built based on [Bootstrap 5](https://getbootstrap.com/) by @waley-z. Special Credit to [TwentyTwentyTwo](https://twentytwentytwo.co.uk/).
+This site is built based on [Bootstrap 5](https://getbootstrap.com/). Special credit to [TwentyTwentyTwo](https://twentytwentytwo.co.uk/).
 
 ## Contributing
 
