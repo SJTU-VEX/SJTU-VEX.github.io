@@ -1,0 +1,255 @@
+/* global */
+
+p {
+    margin-bottom: 1.3rem;
+    font-family: nexa_regularregular;
+    color: #E8E8E8;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Exo 2', sans-serif;
+    margin: 1.414rem 0 0.5rem 0;
+    font-size: 2.369rem;
+    color: #E8E8E8;
+}
+
+
+/* navbar */
+
+#navbar {
+    background-color: #232323;
+    /* justify-content: center; */
+}
+
+@media all and (max-width: 992px) {
+    /* #navbarToggler {
+        position: relative;
+        right: 5vw;
+    }
+    .navbar-brand {
+        padding-left: 10vw;
+    } */
+}
+
+.nav-link:not(:hover) {
+    /* color: #d8d8d8 !important; */
+}
+
+.nav-link {
+    font-family: nexa_xboldregular;
+    text-transform: uppercase;
+    letter-spacing: 4pt;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+}
+
+.nav-item {
+    padding: 0 0%;
+}
+
+.navbar-toggler {
+    /* float: right; */
+}
+
+
+/* home */
+
+#homeWrapper {
+    height: 42vw;
+}
+
+#bgvid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-position: center;
+    object-fit: cover;
+    filter: brightness(75%);
+}
+
+#homeContainer {
+    height: 100%;
+}
+
+.btn {
+    font-family: nexa_regularregular;
+    font-weight: bold;
+}
+
+
+/* TODO */
+
+@media all and (max-width: 2000px) {
+    #homeBlank {
+        height: 20%;
+    }
+}
+
+@media all and (min-width: 2000px) {
+    #homeBlank {
+        height: 30%;
+    }
+}
+
+
+/* about */
+
+#aboutWrapper {
+    background-color: #232323;
+}
+
+#aboutBlank {
+    height: 40%;
+}
+
+#aboutWrapper .container {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
+/* resources */
+
+#resourcesWrapper {
+    background-image: url("../img/vex-world-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#resourcesWrapper .container {
+    margin-top: 6%;
+    margin-bottom: 13%;
+}
+
+#construction {
+    text-align: center;
+}
+
+
+/* gallery */
+
+#galleryWrapper {
+    background-color: #232323;
+}
+
+#galleryWrapper .container {
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+
+/* .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+} */
+
+
+/* .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+} */
+
+Share html {
+    /*    1rem = 16px*/
+    font-size: 1rem;
+}
+
+body {
+    padding-top: 60px;
+    background-color: white;
+    /*    body font*/
+    /* font-family: 'Montserrat', sans-serif; */
+    /*    font-weight: 700;*/
+    /*    line-height is 150% of the font size*/
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+
+
+/*this is a group selection, selecting all the headlines h1-h4*/
+
+h1 {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    margin: 0 0 0.5rem 0;
+    font-size: 3.157rem;
+}
+
+h3 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.777rem;
+}
+
+h4 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.333rem;
+}
+
+
+/*Interactive elements*/
+
+
+/* link*/
+
+
+/*button style*/
+
+
+/*solid button style*/
+
+.btn-primary {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    border-radius: 3rem;
+    /*    top:1 right:2 bottom:1 left:2*/
+    /*    the size of button*/
+    padding: 1rem 2rem;
+    background-color: indigo;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+/*outline button style*/
+
+.btn-outline-primary {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    color: indigo;
+    background-color: transparent;
+    border: 1px indigo solid;
+    transition: all 0.5s;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: indigo;
+    border-color: indigo;
+}
