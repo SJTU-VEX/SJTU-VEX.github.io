@@ -127,8 +127,15 @@ h2 {
     margin-bottom: 13%;
 }
 
-#construction {
-    text-align: center;
+#resourcesWrapper .container div div h2 {
+    /* color: #ffd700; */
+    text-shadow: 3px 3px 3px #232323;
+    /* font-family: 'Courier New', Courier, monospace;
+    -webkit-text-stroke: 1px black;
+    color: transparent; */
+    /* background-color: rgba(35, 35, 35, 0.5); */
+    /* border-radius: 15px; */
+    /* line-height: 0.5rem; */
 }
 
 
