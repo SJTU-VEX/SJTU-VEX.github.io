@@ -25,6 +25,9 @@
     <link href="css/webfontkit-20210922-213723/stylesheet.css" rel="stylesheet">
     <!-- fontawesome ––––––––––––––––––––––––––– -->
     <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
     <!-- To add a google font and paste the link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,7 +83,7 @@
     <div class="b-example-divider"></div>
 
 
-    <div id="homeWrapper" class="position-relative overflow-hidden text-center bg-opacity-0">
+    <div id="homeWrapper" class="position-relative overflow-hidden text-center bg-opacity-0 page-section">
         <video id="bgvid" preload="auto" autoplay loop muted="muted" width="100%" poster="img/header-background-first-frame.jpg" src="./img/web-header.mp4" type="video/mp4"></video>
         <!-- <video autoplay muted loop poster="img/header-background-first-frame.jpg" id="bgvid">
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
@@ -123,7 +126,7 @@
 
 
     <div id="about"></div>
-    <div id="aboutWrapper" class="py-5">
+    <div id="aboutWrapper" class="py-5 page-section">
         <!-- <div id="aboutBlank">&nbsp;</div> -->
 
         <div class="container">
@@ -162,7 +165,7 @@
 
 
     <div id="resources"></div>
-    <div id="resourcesWrapper" class="py-5">
+    <div id="resourcesWrapper" class="py-5 page-section">
 
         <div class="container">
             <div class="row justify-content-center">
@@ -202,18 +205,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-md-6 col-lg-4 column">
-                    <div class="card gr-3">
-                        <div class="txt">
-                            <h1>UX/UI WEBsite </br>AND MOBILE app</h1>
-                            <p>User Interface and User Experience Design.</p>
-                        </div>
-                        <a href="#">more</a>
-                        <div class="ico-card">
-                            <i class="fa fa-empire"></i>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
@@ -223,7 +214,7 @@
 
 
 
-    <div id="galleryWrapper" class="py-5">
+    <div id="galleryWrapper" class="py-5 page-section">
         <div id="gallery"></div>
 
         <div class="container">
@@ -292,75 +283,56 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+            <div class="videoWrapper">
+                <iframe src="https://www.youtube.com/embed/_HBTQAAVvzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
         </div>
     </div>
 
 
 
 
-    <div id="contact"></div>
-    <h1 id="construction" class="pt-5">--- UNDER CONSTRUCTION ---</h1>
+    <div id="contactWrapper" class="py-5 page-section">
+        <div id=contact></div>
 
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <h4 id="scrollspyHeading1">First heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading2">Second heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading3">Third heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading4">Fourth heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading5">Fifth heading</h4>
-        <p>...</p>
-    </div>
-
-    <div>
-
-
-
-        <header class="mb-auto">
-            <div>
-                <h3 class="float-md-start mb-0">\</h3>
-
-
-                \\\
-                </nav>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-1">
+                    <img class="img-fluid" src="./img/logo-red-transparent-full.png" alt="red logo" width="">
+                </div>
             </div>
-        </header>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 text-center">
+                        <div class="social mb-4">
+                            <ul class="list-unstyled">
+                                <li class="youtube"> <a href="https://www.youtube.com/c/SJTUVEX" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                <li class="email"><a href="mailto:sjtuvex@sjtu.edu.cn" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                                <li class="github"><a href="https://github.com/SJTU-VEX" target="_blank"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div>
 
-        <main class="">
+                        <div class="copyright">
+                            <p class="mb-0"><small>&copy; SJTU VEX. All Rights Reserved.</small></p>
+                        </div>
 
 
-
-
-        </main>
-
-
-
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <div>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-        <p>enter</p>
-    </div>
-
 
 
 
@@ -372,7 +344,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="script/script.js"></script>
 
 </body>
 

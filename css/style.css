@@ -143,6 +143,56 @@ h2 {
     margin-bottom: 10%;
 }
 
+.videoWrapper {
+    position: relative;
+    margin-top: 15%;
+    padding-bottom: 42.55319%;
+    /* 2.35:1 */
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* contact */
+
+#contactWrapper {
+    background-color: #232323;
+}
+
+.footer {
+    padding: 2rem 0;
+}
+
+.footer .social ul li {
+    display: inline-block;
+}
+
+.footer .social ul li a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.footer .social ul li.youtube a {
+    color: #df588a;
+}
+
+.footer .social ul li.email a {
+    color: #39c6f2;
+}
+
+.footer .social ul li.github a {
+    color: #3742d0;
+}
+
 
 /* .b-example-divider {
     height: 3rem;
